@@ -1,0 +1,404 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Inter:wght@400;500;600;700&family=Mulish&family=Roboto&display=swap');
+
+tml, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*code*/
+body{
+	font-family:Cabin;
+}
+.header{
+	position: relative;
+	width:100vw;
+	height:100vw;
+	height: 992px;
+}
+
+.header_section1{
+	background-color:#FFCC4A;
+	width: 100%;
+	height: 132px;
+
+}
+.header_section2{
+	background-color:#4EAF4E;
+	width: 100%;
+	height: 828px;
+	
+}
+.header_section2_section{
+	margin:0px 73px 0px 72px;
+
+
+}
+.header_section2_span{
+	color: white;
+	width: 291px;
+	height: 65px;
+	font-size: 61px;
+	font-weight: 600;
+	line-height: 65px;
+	letter-spacing: 0em;
+	text-align: left;
+	size: 61px;
+
+}
+.header_section2_span2{
+	margin: 42px 0px 0px 0px;
+	width: 397px;
+	height: 88px;
+	top: 282px;
+	left: 73px;
+	color: white;
+	font-size: 35px;
+
+}
+.header_section1_img{
+	width: 434.33px;
+	height: 83.5px;
+	border-radius: 0px, 0px, 58.55px, 0px;
+
+}
+.header_img1{
+position:absolute;
+bottom:83px;
+left: 72px;;
+
+
+
+}
+.section2{
+	margin:42px 0px 0px 0px;
+}
+.fiwe{
+	width: 90.45px;
+height: 90.45px;
+top: 411.84px;
+left: 73.11px;
+
+}
+.figma{
+	margin: 0px 30px 0px 0px;
+}
+/*header*/
+.section_VictorFlow_div{
+	display: flex;
+}
+.section_VictorFlow_img{
+	position: sticky;
+	width: 90px;
+	height: 90px;
+	top: 964px;
+	left: 59.73px;
+margin-right: 20px;
+}
+.section_VictorFlow_span1{
+width: 131px;
+height: 30px;
+top: 972px;
+left: 181.25px;
+font-family: Inter;
+font-size: 25px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.section_VictorFlow_span2{
+	font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #171214;
+width: 202px;
+height: 48px;
+top: 1010.31px;
+left: 181.11px;
+
+}
+.section_VictorFlow_div2{
+	width: 202px;
+height: 86.31px;
+top: 972px;
+left: 181.11px;
+
+}
+.followus{
+	font-family: Inter;
+font-size: 25px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 30px;
+}
+.instagram_div{
+	display: flex;
+}
+.instagram_a{
+	font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #0D161A;
+
+}
+.instagram_img{
+margin-right:30px;
+width: 50px;
+height: 50px;
+top: 1190px;
+left: 59.73px;
+position: sticky;
+}
+.instagram_text{
+	margin-left: 15px;
+	text-align: left;
+}
+.instagram_span2{
+	font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #646E79;
+
+
+}
+.left{
+margin-left: 30px;
+}
+ul{
+	margin-top:40px;
+}
+li{
+	margin-top: 30px;
+}
+.twitter_div{
+	display:flex;
+}
+.twitter_img{
+margin-right: 30px;
+	width: 61.54px;
+height: 50px;
+top: 1296px;
+left: 59.73px;
+margin-top: 10px;
+}
+.twitter_a{
+color: #0D161A;
+	font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.twitter_span{
+	font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #646E79;
+
+}
+.linkedin_div{
+	display: flex;
+}
+.linkedin_img{
+	margin-right: 30px;
+	width: 50px;
+	height: 50px;
+	top: 1406px;
+	left: 59.73px;	
+margin-top: 10px;
+}
+.linkedin_a{
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #0D161A;	
+}
+.linkedin_span{
+	font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #646E79;
+}
+.images{
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+margin-top:40px;
+
+}
+.gp_img{
+	width: 45px;
+	height: 45px;
+	top: 1648px;
+	left: 59.73px;
+	
+}
+.gp_a{
+	font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+display: flex;
+align-items: center;
+color: #000000;
+
+}
+.gp_div{
+	display: flex;
+}
+.gp_div2{
+	font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color:#646E79;
+}
+.gp_span{
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #000000;
+}
+.kub_div2{
+	display: flex;
+}
+.kub_a{
+    display: flex;
+    align-items: center;
+	font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+
+}
+.kub_text{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #646E79;
+}
+.kub_span{
+	font-family: Roboto;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color:#000000;
+}
+.strelka{
+	width: 12px;
+height: 12.01px;
+top: 1804px;
+left: 216.73px;
+
+}
+.left_right{
+	position: relative;
+	display: flex;
+}
+.right_mas{
+	position: absolute;
+	right: 0px;
+}
+.file_info{
+	position:static;
+	background-image: url(./foto/INFO\ BG.png);
+	width: 621px;
+height: 676px;
+top: 873px;
+left: 578.73px;
+
+}
+.file_info_text{
+	width: 154px;
+height: 48px;
+top: 980px;
+left: 578.73px;
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
